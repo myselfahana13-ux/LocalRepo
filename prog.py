@@ -1,3 +1,6 @@
-a = 6
-b = 4
-print("sum = ",a+b)
+a = int(input("Enter a number : "))
+b = int(input("Enter a number : "))
+if (a>b):
+    print("Greatest", a)
+else:
+    print("Greatest", b)
